@@ -29,7 +29,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  "tagline"
+  BioInformatics
 
 # A list of keywords for your blog
 keywords:              []
@@ -50,7 +50,7 @@ author:
 menu:
   - title:             Blog
     url:               /hydejack/
-  - title:             Hyde
+  - title:             Post
     url:               /hyde/
   - title:             Documentation
     url:               /docs/
