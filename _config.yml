@@ -52,8 +52,8 @@ menu:
     url:               /blog/
   - title:             Code
     url:               /code/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Rosalind
+    url:               /rosalind/
   - title:             About
     url:               /about/
 
