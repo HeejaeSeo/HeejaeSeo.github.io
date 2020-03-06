@@ -1,4 +1,4 @@
-# 04. Computing GC Contents
+# 04. Computing GC Content
 
 The GC-content of a DNA string is given by the percentage of symbols in the string that are 'C' or 'G'. 
 
@@ -23,7 +23,7 @@ best = ['name', 0]   # best = [id, GC content] of highest GC content String
 cnt_c = cnt_g = 0
 
 
-## 02. Calculate GC Contents of Each String 
+## 02. Calculate GC Content of Each String 
 
 with open('rosalind_gc.txt', 'r') as f :
     for s in f :      
