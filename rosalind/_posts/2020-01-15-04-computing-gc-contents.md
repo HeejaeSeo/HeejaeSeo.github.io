@@ -8,10 +8,10 @@ Note that the reverse complement of any DNA string has the same GC-content.
 
 
 > **Given**
-> > At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
+> At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 
 > **Return**
-> > The ID of the string having the highest GC-content, followed by the GC-content of that string.
+> The ID of the string having the highest GC-content, followed by the GC-content of that string.
  
 ```python
 
