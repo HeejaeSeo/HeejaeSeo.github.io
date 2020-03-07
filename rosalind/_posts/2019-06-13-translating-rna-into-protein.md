@@ -11,10 +11,10 @@
 * The RNA codon table dictates the details regarding the encoding of specific codons into the amino acid alphabet.
 
 
-> **Given**
+> **Given**   
 > An RNA string s corresponding to a strand of mRNA (of length at most 10 kbp).
 
-> **Return**
+> **Return**   
 > The protein string encoded by s.
  
 ```python
