@@ -15,7 +15,7 @@ Note that the reverse complement of any DNA string has the same GC-content.
  
 ```python
 
-## 01. Set Variables
+## 00. Set Variables
 
 data = [0, 0, 1, 0]  # data = [id, number of 'C', number of 'G', GC content]
 best = ['name', 0]   # best = [id, GC content] of highest GC content String 
@@ -23,7 +23,7 @@ best = ['name', 0]   # best = [id, GC content] of highest GC content String
 cnt_c = cnt_g = 0
 
 
-## 02. Calculate GC Content of Each String 
+## 01. Calculate GC Content of Each String 
 
 with open('rosalind_gc.txt', 'r') as f :
     for s in f :      
@@ -56,7 +56,7 @@ if data[3] > best[1] :
     best[1] = data[3]
 
 
-## 03. Print the Highest GC Content String
+## 02. Print the Highest GC Content String
 
 print(best[0])
 print(best[1])
