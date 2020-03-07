@@ -6,10 +6,10 @@
 then taking the complement of each symbol 
 
 
-> **Given**
+> **Given**    
 > A DNA string s of length at most 1000 bp.
 
-> **Return**
+> **Return**   
 > The reverse complement.
  
 ```python
