@@ -44,6 +44,7 @@ data_ls_len = len(data_ls)
 ## 02. Create id-seq list
 
 for i in range(data_ls_len) :
+
     # Create id list
     if i % 3 == 0 :
         data_ls[i] = data_ls[i].replace(">","")
@@ -54,12 +55,10 @@ for i in range(data_ls_len) :
         join = data_ls[i] + data_ls[i + 1]
         seq_ls.append(join)
 
-id_ls_len = len(id_ls)
-
 
 ## 03. Print Overlap Strand ID
 
-for i in range(id_ls_len - 1) :
+for i in range(len(id_ls) - 1) :
     for j in range(id_ls_len - 1) :
         if i != j :
             if seq_ls[i][-3 :] == seq_ls[j][0 : 3] :
