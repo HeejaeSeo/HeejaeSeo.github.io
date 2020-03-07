@@ -52,10 +52,10 @@ menu:
     url:               /blog/
   - title:             Code
     url:               /code/
+  - title:             Network
+    url:               /network/
   - title:             Rosalind
     url:               /rosalind/
-  - title:             About
-    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
