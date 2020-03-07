@@ -6,10 +6,10 @@
 by replacing all occurrences of 'T' in twith 'U' in u.
 
 
-> **Given**
+> **Given**    
 >  A DNA string t having length at most 1000 nt.
 
-> **Return**
+> **Return**   
 > The transcribed RNA string of t.
  
 ```python
