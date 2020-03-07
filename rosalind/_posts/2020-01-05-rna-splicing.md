@@ -73,19 +73,21 @@ for i in range(len(fr)) :
 			seq_dna += fr[i]
 		else :
 			intron_ls.append(fr[i])
-      
+
 # Delete 1st Element
 seq_dna = intron_ls[0] + seq_dna
 intron_ls.pop(0)
 
 
 ## 04. Remove Introns
+
 for seq in intron_ls :
 	if seq in seq_dna :
 		seq_dna = seq_dna.replace(seq, "")
     
     
 ## 05. Translate & Print
+
 protein = Translate(seq_dna)
 print(protein)
 
