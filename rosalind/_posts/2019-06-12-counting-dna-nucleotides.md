@@ -1,8 +1,8 @@
 # 01. Counting DNA Nucleotides
 
-A string is simply an ordered collection of symbols selected from some alphabet and formed into a word.
+* A string is simply an ordered collection of symbols selected from some alphabet and formed into a word.
 
-The length of a string is the number of symbols that it contains.
+* The length of a string is the number of symbols that it contains.
 
 
 
