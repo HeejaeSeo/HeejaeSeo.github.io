@@ -35,12 +35,6 @@ cnt_t = fr.count("T")
 print("%d %d %d %d" %(cnt_a, cnt_c, cnt_g, cnt_t))
 ```
 
-## Result
-
-~~~
-208 262 245 242
-~~~
-
 ## Answer
 
 ~~~
