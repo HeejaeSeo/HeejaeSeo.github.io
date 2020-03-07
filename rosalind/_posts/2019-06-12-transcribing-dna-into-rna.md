@@ -15,17 +15,20 @@ by replacing all occurrences of 'T' in twith 'U' in u.
 ```python
 
 ## 01. Read File
+
 with open("rosalind_rna.txt") as f :
 	fr = f.readline()
 	fr = fr.replace("\n", "")
 
 
 ## 02. Convert 'T' into 'U'
+
 for s in fr :
 	fr  = fr.replace("T", "U")
 
 
 ## 03. Print String
+
 print(fr)
 
 ```
