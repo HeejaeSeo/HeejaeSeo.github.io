@@ -12,12 +12,10 @@ Given two strings s and t of equal length, the Hamming distance between s and t 
 ```python
 
 ## 00. Set Variables
-
 num = 0
 
 
 ## 01. Read File
-
 with open("rosalind_hamm.txt") as f :
 	fr = f.readlines()
 	
@@ -26,7 +24,6 @@ t = fr[1].replace("\n", "")
 
 
 ## 02. Count the Number of Point Mutations 
-
 length = len(s)
 
 for i in range(length) :
@@ -37,7 +34,6 @@ for i in range(length) :
     
     
 ## 03. Print the Number of Mutations
-
 print(num)
 
 ```
