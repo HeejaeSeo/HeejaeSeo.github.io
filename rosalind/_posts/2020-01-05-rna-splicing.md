@@ -24,10 +24,11 @@ intron_ls = []
 ## 01. Define Function - Convert DNA into Protein
 
 def Translate(seq) :
-	length = len(seq)
+	
+	# Set Variables
 	protein = ""
 
-	## Translate Table
+	# Translate Table
 	table = { 
 		'ATA':'I', 'ATC':'I', 'ATT':'I', 'ATG':'M',
 		'ACA':'T', 'ACC':'T', 'ACG':'T', 'ACT':'T',
@@ -47,7 +48,7 @@ def Translate(seq) :
 		'TGC':'C', 'TGT':'C', 'TGA':'_', 'TGG':'W'
 	}
 
-	for i in range(0, length, 3) :
+	for i in range(0, len(seq), 3) :
 		codon = seq[i : i + 3]
 		if table[codon] == "_" :
 			break
