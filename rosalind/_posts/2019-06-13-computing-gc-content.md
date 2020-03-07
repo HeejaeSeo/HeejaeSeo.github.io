@@ -29,7 +29,7 @@ with open('rosalind_gc.txt', 'r') as f :
     for s in f :      
         if s.startswith(">") :
             data[3] = data[1]/data[2] * 100
-            print(data)
+            #print(data)
 
             # Select the highst GC content String
             if data[3] > best[1] :
@@ -49,7 +49,8 @@ with open('rosalind_gc.txt', 'r') as f :
            
 
 data[3] = data[1]/data[2] * 100
-print(data)
+
+#print(data)
 
 if data[3] > best[1] :
     best[0] = data[0]
