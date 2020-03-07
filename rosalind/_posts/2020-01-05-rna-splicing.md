@@ -57,6 +57,7 @@ def Translate(seq) :
 
 	return protein
 
+
 ## 02. Read File
 
 with open("rosalind_splc.txt", 'r') as f :
