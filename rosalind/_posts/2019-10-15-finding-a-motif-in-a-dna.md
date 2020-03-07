@@ -19,10 +19,10 @@
 * Note that t will have multiple locations in s if it occurs more than once as a substring of s.
 
 
-> **Given**
+> **Given**   
 > Two DNA strings s and t (each of length at most 1 kbp).
 
-> **Return**
+> **Return**   
 > All locations of t as a substring of s.
  
 ```python
