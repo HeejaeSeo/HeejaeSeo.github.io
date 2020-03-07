@@ -29,6 +29,10 @@ layout: base
 
   <hr class="dingbat"/>
 
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
+  
   {% if site.posts.size > 0 %}
     <h2 class="hr">{{ strings.posts | default:"Posts" }}</h2>
     <ul class="related-posts">
