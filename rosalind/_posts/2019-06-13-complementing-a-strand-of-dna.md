@@ -15,22 +15,26 @@ then taking the complement of each symbol
 ```python
 
 ## 00. Set Variables
+
 strand_rev = ''
 strand_new = ''
 
 
 ## 01. Read File
+
 with open("rosalind_revc.txt") as f :
 	fr = f.readline()
 	strand = fr.replace("\n", "")
 
 
 ## 02. Create a Reverse Strand
+
 for i in strand :
     strand_rev = i + strand_rev
     
     
 ## 03. Create a Complementary Strand
+
 for i in strand_rev :
     if i == 'A' :
         strand_new += 'T'
@@ -43,6 +47,7 @@ for i in strand_rev :
 
 
 ## 04. Print New Strand
+
 print(strand_new)
 
 ```
