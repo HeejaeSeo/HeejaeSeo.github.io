@@ -18,10 +18,10 @@ when there is a length k suffix of s that matches a length k prefix of t, as lon
 * We demand s≠t to prevent directed loops in the overlap graph (although directed cycles may be present).
 
 
-> **Given**
+> **Given**   
 > A collection of DNA strings in FASTA format having total length at most 10 kbp.
 
-> **Return**
+> **Return**   
 > The adjacency list corresponding to O3. You may return edges in any order.
  
 ```python
