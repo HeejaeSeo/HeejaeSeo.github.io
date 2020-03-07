@@ -1,8 +1,8 @@
 # 03. Complementing a Strand of DNA
 
-In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
+* In DNA strings, symbols 'A' and 'T' are complements of each other, as are 'C' and 'G'.
 
-The reverse complement of a DNA string s is the string formed by reversing the symbols of s,
+* The reverse complement of a DNA string s is the string formed by reversing the symbols of s,
 then taking the complement of each symbol 
 
 
