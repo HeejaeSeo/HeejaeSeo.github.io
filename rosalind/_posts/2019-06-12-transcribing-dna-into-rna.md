@@ -39,4 +39,4 @@ CGUCCACAGUUUUGUAGACCGAUGGAAGUGUAACCGAAACAGUUUGCGGGGGGAUCGUUGUAUCGUCGUAAUGUCCACGU
 
 ## Link
 
-> [Transcribing DNT into RNA](http://rosalind.info/problems/rna/)
+> [Transcribing DNA into RNA](http://rosalind.info/problems/rna/)
