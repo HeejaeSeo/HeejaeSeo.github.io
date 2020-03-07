@@ -1,2 +1,8 @@
-# Test 01 
-Test Post for Network Page
+---
+layout: post
+title: Network
+description: >
+  This post is for Network Page
+author: author2
+noindex: true
+---
