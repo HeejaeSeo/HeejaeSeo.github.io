@@ -48,10 +48,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
-  - title:             Code
-    url:               /code/
+#   - title:             Blog
+#     url:               /blog/
+#   - title:             Code
+#     url:               /code/
   - title:             Network
     url:               /network/
   - title:             Python
