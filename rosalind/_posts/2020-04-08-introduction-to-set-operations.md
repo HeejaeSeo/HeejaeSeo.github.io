@@ -16,7 +16,6 @@ and their set difference A − B is the set of elements in A but not in B.
 
 ```python
 
-
 ## 01. Read File
 
 with open("rosalind_seto.txt") as f :
