@@ -23,11 +23,11 @@ seq_dic = {'A' : 0, 'T' : 0, 'G' : 0, 'C' : 0}
 ## 01. Read File
 
 with open("rosalind_rstr.txt") as f :
-	fr = f.read()
+	fr = f.read().split()
 
-	n = int(fr.split()[0])
-	x = float(fr.split()[1])
-	seq = fr.split()[2]
+	n = int(fr[0])
+	x = float(fr[1])
+	seq = fr[2]
 
 
 ## 02. Get Data
