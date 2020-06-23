@@ -54,8 +54,8 @@ menu:
 #     url:               /code/
 #   - title:             Network
 #     url:               /network/
-  - title:             Python
-    url:               /python/
+#   - title:             Python
+#     url:               /python/
   - title:             Rosalind
     url:               /rosalind/
 
